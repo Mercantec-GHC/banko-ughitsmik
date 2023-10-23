@@ -1,44 +1,91 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Banko
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        // Create the lists of numbers
+        var LukasB1 = new List<int[]>()
         {
-            // Create a 3 by 9 array to store the numbers
-            int[,] numbers = new int[3, 9];
+            new int[] { 2, 15, 30, 60, 72 },
+            new int[] { 4, 18, 24, 56, 84 },
+            new int[] { 5, 38, 48, 68, 87 },
+        };
 
-            // Prompt the user to enter the numbers
-            Console.WriteLine("Enter 27 numbers, one per line:");
-            for (int i = 0; i < 3; i++)
+        var Mikkel1 = new List<int[]>()
+        {
+            new int[] { 12, 44, 60, 70, 81 },
+            new int[] { 4, 37, 45, 55, 72 },
+            new int[] { 6, 28, 48, 58, 65 },
+        };
+
+        // Keep track of which numbers have been checked
+        var checkedNumbers = new HashSet<int>();
+
+        // Keep inputting numbers until the user enters "exit"
+        bool keepGoing = true;
+        while (keepGoing)
+        {
+            // Get the user input
+            Console.WriteLine("Enter a number to check or \"exit\" to quit: ");
+            string userInput = Console.ReadLine();
+
+            // Check if the user wants to quit
+            if (userInput.ToLower() == "exit")
             {
-                for (int j = 0; j < 9; j++)
+                keepGoing = false;
+                break;
+            }
+
+            // Check the user input against the lists of numbers
+            bool foundInLukasB1 = false;
+            bool foundInMikkel1 = false;
+
+            foreach (int[] row in LukasB1)
+            {
+                if (row.Contains(int.Parse(userInput)))
                 {
-                    numbers[i, j] = Convert.ToInt32(Console.ReadLine());
+                    foundInLukasB1 = true;
+                    break;
                 }
             }
 
-            // Display the numbers in an array
-            Console.WriteLine("[");
-            for (int i = 0; i < 3; i++)
+            foreach (int[] row in Mikkel1)
             {
-                Console.Write("[");
-                for (int j = 0; j < 9; j++)
+                if (row.Contains(int.Parse(userInput)))
                 {
-                    Console.Write(numbers[i, j]);
-                    if (j < 8)
-                    {
-                        Console.Write(", ");
-                    }
-                }
-                Console.Write("]");
-                if (i < 2)
-                {
-                    Console.WriteLine(",");
+                    foundInMikkel1 = true;
+                    break;
                 }
             }
-            Console.WriteLine("]");
+
+            // Add the checked number to the set of checked numbers
+            checkedNumbers.Add(int.Parse(userInput));
+
+            // Display the results
+            if (foundInLukasB1 && foundInMikkel1)
+            {
+                Console.WriteLine("The number {0} is found in both LukasB1 and Mikkel1.", userInput);
+            }
+            else if (foundInLukasB1)
+            {
+                Console.WriteLine("The number {0} is found in LukasB1.", userInput);
+            }
+            else if (foundInMikkel1)
+            {
+                Console.WriteLine("The number {0} is found in Mikkel1.", userInput);
+            }
+            else
+            {
+                Console.WriteLine("The number {0} is not found in either LukasB1 or Mikkel1.", userInput);
+            }
+
+            // Announce when every number in the new List<int[]> has been checked
+            if (checkedNumbers.Count == LukasB1.Count + Mikkel1.Count)
+            {
+                Console.WriteLine("All numbers in both LukasB1 and Mikkel1 have been checked.");
+            }
         }
     }
 }
