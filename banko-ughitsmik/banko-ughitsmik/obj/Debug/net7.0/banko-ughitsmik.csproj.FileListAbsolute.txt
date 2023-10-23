@@ -1,0 +1,15 @@
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/bin/Debug/net7.0/banko-ughitsmik
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/bin/Debug/net7.0/banko-ughitsmik.deps.json
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/bin/Debug/net7.0/banko-ughitsmik.runtimeconfig.json
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/bin/Debug/net7.0/banko-ughitsmik.dll
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/bin/Debug/net7.0/banko-ughitsmik.pdb
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.csproj.AssemblyReference.cache
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.AssemblyInfoInputs.cache
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.AssemblyInfo.cs
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.csproj.CoreCompileInputs.cache
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.dll
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/refint/banko-ughitsmik.dll
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.pdb
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/banko-ughitsmik.genruntimeconfig.cache
+/Users/mikkel/Documents/GitHub/banko-ughitsmik/banko-ughitsmik/banko-ughitsmik/obj/Debug/net7.0/ref/banko-ughitsmik.dll
