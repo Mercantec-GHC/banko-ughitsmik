@@ -8,17 +8,11 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="banko-ughitsmik/Program.cs">
     <Files>
-      <File FileName="banko-ughitsmik/Program.cs" Line="93" Column="2" />
+      <File FileName="banko-ughitsmik/Program.cs" Line="7" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="banko-ughitsmik">
-            <Node name="banko-ughitsmik">
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
